@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterController : MonoBehaviour
+public class CharacterMovement : MonoBehaviour
 {
 
     // Variable to Hold the Input of Player Movement
-    private float h;
-    private float v;
+    public float h;
+    public float v;
 
     // Variable to Hold Speed
     public int speed;
@@ -16,6 +16,7 @@ public class CharacterController : MonoBehaviour
     /*
      * UNITY DEFAULT METHODS
      */
+
     // Start is called before the first frame update
     void Start()
     {
